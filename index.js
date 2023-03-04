@@ -1,5 +1,5 @@
 import fs from 'node:fs'
-
+return true //在完善之前不开放
 const files = fs.readdirSync('./plugins/js-single-plugin/apps').filter(file => file.endsWith('.js'))
 
 let ret = []
